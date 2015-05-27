@@ -41,12 +41,12 @@ import com.pagosoft.plaf.PlafOptions;
  * @author Alexandre de Pellegrin
  * 
  */
-public class DarkAmbianceTheme extends AbstractTheme
+public class DarkBlueTheme extends AbstractTheme
 {
 
 	@Override
 	public ThemeInfo getThemeInfo() {
-		return new ThemeInfo("Dark Ambiance", DarkAmbianceTheme.class, PgsLookAndFeel.class);
+		return new ThemeInfo("Dark Blue", DarkBlueTheme.class, PgsLookAndFeel.class);
 	}
 	
     @Override
@@ -96,7 +96,7 @@ public class DarkAmbianceTheme extends AbstractTheme
 
     public Color getBackgroundColor()
     {
-        return new Color(242, 241, 240);
+        return new Color(67, 87, 113);
     }
 
     public Font getMenubarFont()
@@ -151,22 +151,22 @@ public class DarkAmbianceTheme extends AbstractTheme
 
     public Color getSidebarElementTitleBackgroundEndColor()
     {
-        return new Color(110, 110, 110);
+        return new Color(54, 69, 89);
     }
 
     public Color getSidebarElementTitleBackgroundStartColor()
     {
-        return new Color(130, 130, 130);
+        return new Color(54, 69, 89);
     }
 
     public Color getSidebarElementForegroundColor()
     {
-        return getBackgroundColor();
+        return Color.WHITE;
     }
 
     public Color getSidebarElementTitleOverColor()
     {
-        return getBackgroundColor().brighter();
+        return Color.WHITE;
     }
 
     public Color getStatusbarBackgroundColor()
@@ -269,15 +269,15 @@ public class DarkAmbianceTheme extends AbstractTheme
                     "MenuBarMenu.rolloverBackground.gradientStart",
                     new ColorUIResource(130, 130, 130),
                     "MenuBarMenu.rolloverBackground.gradientMiddle",
-                    new ColorUIResource(140, 140, 140),
+                    new ColorUIResource(130, 130, 130),
                     "MenuBarMenu.rolloverBackground.gradientEnd",
-                    new ColorUIResource(150, 150, 150),
+                    new ColorUIResource(130, 130, 130),
                     "MenuBarMenu.selectedBackground.gradientStart",
                     new ColorUIResource(130, 130, 130),
                     "MenuBarMenu.selectedBackground.gradientMiddle",
-                    new ColorUIResource(140, 140, 140),
+                    new ColorUIResource(130, 130, 130),
                     "MenuBarMenu.selectedBackground.gradientEnd",
-                    new ColorUIResource(150, 150, 150),
+                    new ColorUIResource(130, 130, 130),
                     "MenuBarMenu.rolloverBorderColor",
                     getPrimary3(),
                     "MenuBarMenu.selectedBorderColor",
@@ -286,7 +286,7 @@ public class DarkAmbianceTheme extends AbstractTheme
                     "Menu.gradientStart",
                     getPrimary3(),
                     "Menu.gradientEnd",
-                    getPrimary2(),
+                    getPrimary3(),
                     "Menu.gradientMiddle",
                     getPrimary3(),
                     "Menu.isFlat",
@@ -295,7 +295,7 @@ public class DarkAmbianceTheme extends AbstractTheme
                     "MenuItem.gradientStart",
                     getPrimary3(),
                     "MenuItem.gradientEnd",
-                    getPrimary2(),
+                    getPrimary3(),
                     "MenuItem.gradientMiddle",
                     getPrimary3(),
                     "MenuItem.isFlat",
@@ -304,7 +304,7 @@ public class DarkAmbianceTheme extends AbstractTheme
                     "CheckBoxMenuItem.gradientStart",
                     getPrimary3(),
                     "CheckBoxMenuItem.gradientEnd",
-                    getPrimary2(),
+                    getPrimary3(),
                     "CheckBoxMenuItem.gradientMiddle",
                     getPrimary3(),
                     "CheckBoxMenuItem.isFlat",
@@ -313,7 +313,7 @@ public class DarkAmbianceTheme extends AbstractTheme
                     "RadioButtonMenuItem.gradientStart",
                     getPrimary3(),
                     "RadioButtonMenuItem.gradientEnd",
-                    getPrimary2(),
+                    getPrimary3(),
                     "RadioButtonMenuItem.gradientMiddle",
                     getPrimary3(),
                     "RadioButtonMenuItem.isFlat",
@@ -322,11 +322,11 @@ public class DarkAmbianceTheme extends AbstractTheme
                     "Button.rolloverGradientStart",
                     getPrimary3(),
                     "Button.rolloverGradientEnd",
-                    getPrimary2(),
+                    getPrimary3(),
                     "Button.selectedGradientStart",
                     getPrimary3(),
                     "Button.selectedGradientEnd",
-                    getPrimary1(),
+                    getPrimary3(),
                     "Button.rolloverVistaStyle",
                     Boolean.TRUE,
                     "glow",
@@ -335,11 +335,11 @@ public class DarkAmbianceTheme extends AbstractTheme
                     "ToggleButton.rolloverGradientStart",
                     getPrimary3(),
                     "ToggleButton.rolloverGradientEnd",
-                    getPrimary2(),
+                    getPrimary3(),
                     "ToggleButton.selectedGradientStart",
                     getPrimary3(),
                     "ToggleButton.selectedGradientEnd",
-                    getPrimary1(),
+                    getPrimary3(),
 
                     "TabbedPane.selected",
                     new ColorUIResource(253, 236, 178),
